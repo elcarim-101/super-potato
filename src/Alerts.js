@@ -20,10 +20,12 @@ const Alerts = () => {
           <img src={alert} className="weather-pic" alt="Weather data" />
         </div>
       </div>
+      <div className='footer'>
       <footer className="footer">
         <p>Find out more at<a href="https://weather.com/en-CM/weather/today/l/CMXX0008:1:CM?Goto=Redirected"> weather alerts</a></p>
         <p>Contact us at <a href="mailto:info@weathermaps.com">info@weathermaps.com</a></p>
       </footer>
+    </div>
     </div>
   )
 }

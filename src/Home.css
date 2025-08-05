@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 .onboarding{
   height: 100vh;
   width: 100vw;
@@ -8,9 +10,9 @@
  margin-left: 50%;
 }
 .weather-app {
-  max-width: 1000px;
+  
   margin: 0 auto;
-  padding: 20px;
+  
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
 }
@@ -22,6 +24,14 @@
 .header h1 {
   color: #2c3e50;
   margin-bottom: 20px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.home-content p{
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .search-form {
@@ -188,12 +198,15 @@
   color: #3498db;
 }
 
-.footer {
+.footer  p{
   text-align: center;
   margin-top: 40px;
-  color: #7f8c8d;
+  color: orange;
   font-size: 14px;
-;
+  background-color:transparent;
+  height: 40vh;
+  width: 100vw;
+
 }
 
 @media (max-width: 768px) {
@@ -284,7 +297,11 @@
 .search-btn:hover {
   background: #f0f0f0;
 }
-
+.navbar-links li a {
+  color:orange;
+  background-color:transparent;
+  text-decoration: none;
+}
 /* Responsive design */
 @media (max-width: 768px) {
   .navbar {
@@ -308,14 +325,9 @@
   padding: 0;
 }
 
-.navbar-links li a {
-  color: white;
-  text-decoration: none;
-}
 
-.navbar-links li a:hover {
-  text-decoration: underline;
-}
+
+
 }
 .weather-pics {
   display: flex;
@@ -342,4 +354,23 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+}
+
+.home-content{
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;  
+}
+.logo{
+ 
+  height:100px;
+  width: 100px;
+  margin-top: 10%;
+  margin-bottom: 6%;
+  margin-left: 40%;
+}
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

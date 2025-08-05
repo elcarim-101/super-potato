@@ -4,6 +4,7 @@ import weatherimage from './pic1.jpg';
 import image from './pic2.jpg';
 import map from './pic3.jpg';
 import maps from './pic4.jpg';
+
 import './Home.css'
 
 const WeatherMaps = () => {
@@ -27,9 +28,11 @@ const WeatherMaps = () => {
           <img src={maps} className="weather-pic" alt="Weather forecast" />
         </div>
       </div>
+      <div className="footer">
       <footer className="footer">
         <p>Contact us at <a href="mailto:info@weathermaps.com">info@weathermaps.com</a></p>
       </footer>
+    </div>
     </div>
   )
 }
